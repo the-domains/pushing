@@ -1,28 +1,40 @@
-name: pushing
-favicon: null
-layout_spectrum: 0.2694055924657732
-typography_spectrum: 0.24124732241034508
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.8884712
+  brandStrength: 0.9649123
+  lightness: 0.9022557
   brandColors:
     - '#9D2D3C'
     - '#DDE4DD'
     - '#BCAB47'
     - '#6B574B'
     - '#160600'
-  brandStrength: 0.6575592993758619
-  lightness: 0.6387214281130582
-  saturation: 0.26015863264910877
-  rhythmicContrast: 0.627841534325853
-purpose: []
+  rhythmicContrast: 0.9010025
+typography_spectrum: 0.4830827
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.7387218
+favicon: null
+name: pushing
